@@ -12,8 +12,8 @@ function assignGrade(score) {
     }
   }
 
-for( score=60 ; score =< 100; score++){
-    let abc = assignGrade(score)
-    console.log( `for scoring ${score}, you get an C`);
+for( num=60 ; num <= 100; num++){
+
+    console.log( `For scoring ${num} points, you get a grade` + assignGrade(num) );
 
 }
